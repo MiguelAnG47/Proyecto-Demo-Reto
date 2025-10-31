@@ -4,7 +4,7 @@ def sumar(a, b):
     return a + b
 
 def restar(a, b):
-    return a - b
+    return a + b  # Error intencional
 
 def test_sumar():
     assert sumar(3, 4) == 7
